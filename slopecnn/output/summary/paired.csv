@@ -1,0 +1,3 @@
+comparison,a,b,folds,rmse_diff_mean,rmse_diff_sd,folds_a_better
+SlopeCNN vs Soranzo et al. (2023),slopecnn_all6_pp,soranzo_published,5,-0.0718,0.0184,5
+SlopeCNN with vs without residual channels,slopecnn_all6_pp,slopecnn_peak4_pp,5,-0.0288,0.008,5

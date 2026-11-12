@@ -1,0 +1,8 @@
+run,model,folds,seeds,r2_mean,r2_sd,rmse_mean,rmse_sd,mae_mean,mae_sd,pooled_r2,pooled_rmse,pooled_mae,failing_called_stable,stable_called_failing,n_failing,params,best_epoch_median
+slopecnn_all6_pp,SlopeCNN (7 channels),7,3,0.9387,0.0154,0.1044,0.0177,0.0727,0.0117,0.9448,0.0999,0.067,9,9,88,124343.0,65.0
+tabular_rf_wt,Random forest + water-table depth,7,3,0.905,0.0192,0.1307,0.0186,0.0986,0.0141,0.9038,0.1318,0.0984,16,12,88,,
+tabular_rf,Random forest,7,3,0.8839,0.0215,0.1445,0.0189,0.1109,0.0143,0.8828,0.1455,0.1108,15,28,88,,
+tabular_rf_angle_only,"Random forest, slope angle only",7,1,0.8694,0.0223,0.1532,0.0183,0.1183,0.0153,0.8684,0.1542,0.1182,15,31,88,,
+tabular_linear_wt,Linear regression + water-table depth,7,1,0.847,0.0351,0.1656,0.0229,0.131,0.0182,0.8453,0.1672,0.1311,18,18,88,,
+soranzo_published,Soranzo et al. (2023),7,3,0.8302,0.0287,0.1744,0.0188,0.1355,0.0158,0.8375,0.1714,0.1319,27,26,88,2551105.0,64.0
+tabular_linear,Linear regression,7,1,0.7974,0.0394,0.1908,0.0254,0.1508,0.0214,0.7949,0.1925,0.1508,25,18,88,,

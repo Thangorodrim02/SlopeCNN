@@ -1,0 +1,2 @@
+comparison,a,b,folds,rmse_diff_mean,rmse_diff_sd,folds_a_better
+SlopeCNN vs Soranzo et al. (2023),slopecnn_all6_pp,soranzo_published,7,-0.07,0.0134,7
