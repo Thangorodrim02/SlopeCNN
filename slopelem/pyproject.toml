@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slopelem"
+version = "1.0.0"
+description = "Simplified Bishop limit-equilibrium analysis of Slide2 slope models with anisotropic strength"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "scipy>=1.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+slopelem = "slopelem.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m \"not slow\" -p no:cacheprovider"
+markers = ["slow: full critical-circle search (about 1 minute)"]

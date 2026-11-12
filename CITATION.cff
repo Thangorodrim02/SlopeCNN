@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite it as below."
+title: "SlopeCNN: a CNN surrogate model for the factor of safety of open-pit slopes at the Çöllolar mine (code and dataset)"
+version: 3.1.0
+date-released: 2026-11-12
+license: MIT
+authors:
+  - family-names: "Soydan Ulubay"
+    given-names: "Hilal"
+    affiliation: "Hacettepe University"
+  - family-names: "Postalcıoğlu"
+    given-names: "Ahmet Burak"
+    affiliation: "Hacettepe University"
+keywords:
+  - slope stability
+  - convolutional neural network
+  - surrogate model
+  - limit equilibrium
+  - simplified Bishop
+  - open-pit mining
