@@ -1,0 +1,27 @@
+{
+  "run": "soranzo_published",
+  "lr": 0.001,
+  "model": "soranzo",
+  "channels": [
+    0,
+    2,
+    4
+  ],
+  "fold": 2,
+  "seed": 1,
+  "k": 5,
+  "augmentations": 6,
+  "weight_decay": 0.0,
+  "schedule": "none",
+  "n_train": 235,
+  "n_val": 42,
+  "n_test": 69,
+  "best_epoch": 164,
+  "epochs_run": 200,
+  "val_mse": 0.017753949388861656,
+  "params": 2551105,
+  "seconds": 107,
+  "r2": 0.8529151678085327,
+  "rmse": 0.15634331107139587,
+  "mae": 0.12067754566669464
+}
