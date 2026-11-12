@@ -1,0 +1,27 @@
+{
+  "run": "slopecnn_all6_pp",
+  "lr": 0.001,
+  "model": "slopecnn",
+  "channels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "fold": 3,
+  "seed": 1,
+  "n_train": 235,
+  "n_val": 42,
+  "n_test": 69,
+  "best_epoch": 82,
+  "epochs_run": 122,
+  "val_mse": 0.008167235180735588,
+  "params": 124343,
+  "seconds": 214,
+  "r2": 0.9487980604171753,
+  "rmse": 0.0987495630979538,
+  "mae": 0.06510128825902939
+}
