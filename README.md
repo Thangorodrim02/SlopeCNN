@@ -1,6 +1,7 @@
 # SlopeCNN
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24168507.svg)](https://doi.org/10.5281/zenodo.24168507)
+
 Code and data of the SlopeCNN study: a convolutional neural network (CNN) surrogate
 model that predicts the factor of safety (FoS) of slopes at Section 4 of the Çöllolar
 open-pit lignite mine (Elbistan, Türkiye), compared with the CNN of Soranzo et al. (2023).
