@@ -3,9 +3,10 @@ message: "If you use this code or dataset, please cite it as below."
 title: "SlopeCNN: a CNN surrogate model for the factor of safety of open-pit slopes at the Çöllolar mine (code and dataset)"
 version: 3.1.0
 date-released: 2026-11-12
+doi: 10.5281/zenodo.24168507
 license: MIT
 authors:
-  - family-names: "Soydan Ulubay"
+  - family-names: "Soydan"
     given-names: "Hilal"
     affiliation: "Hacettepe University"
   - family-names: "Postalcıoğlu"
